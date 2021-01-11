@@ -1,0 +1,30 @@
+Canonical correlation analysis is a method for exploring the relationships between two multivariate sets of variables (vectors), all measured on the same individual. the relationships between 2 sets of variables are of interest.
+Example: the relationships between the sales performance variables and the Health variables.
+
+No need to think of one set of variables as independent and the other as dependent
+
+
+U corresponds to the linear combinations from the first set of variables, X
+V corresponds to the second set of variables, Y. 
+Each member of U is paired with a member of V.
+
+- canonical variate pair is (U1, V1)
+- Correlation between Ui and Vj: Ro = Covariance of Ui and Vj /var_Ui/varVj
+When i = j then its called Canonical correlation. 
+
+- First canonical variate pair(U1,V1): Ro is max, varU1 = VarV1 = 1. 
+Target: maximize Ro, We want to find linear combinations of the X's and linear combinations of the Y's that maximize the above correlation.
+
+- Second canonical variate pair (U2,V2)
+Constraint: U1, U1 and V1, V2 are not correlated (cov moi cap bang 0) + varu2=varv2=1
+
+
+When performing CCA, data should be more observations than variables in each set.
+In particular, in some research contexts like in biology or genetics with studies about gene expression, CCA cannot be performed when n ≤ max(k, m).  a standard condition usually advocated for CCA is that n ≥ m + k + 1. 
+
+
+
+whenvariablesX1,...,Xp and/orY1,...,Yq are highly correlated, i.e. nearly collinear, matrices SX and/or SY respectively, tend to be ill-conditioned a
+
+
+- Lasso regression is a type of linear regression that uses shrinkage. Shrinkage is where data values are shrunk towards a central point, like the mean.
