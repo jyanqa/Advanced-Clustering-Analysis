@@ -13,8 +13,8 @@ The result reveals that there are approximately 17 clusters by K-Means Method an
 
 ## Report
 
-The full article is [here](https://github.com/jyanqa/Advanced-Clustering-Analysis/blob/main/AMS_Report.pdf "Read the article") \
-The presentation is [here](https://github.com/jyanqa/Advanced-Clustering-Analysis/blob/main/AMS_Slide.pdf "Presentation slide")
+[Full article](https://github.com/jyanqa/Advanced-Clustering-Analysis/blob/main/AMS_Report.pdf "Read the article") \
+[Presentation](https://github.com/jyanqa/Advanced-Clustering-Analysis/blob/main/AMS_Slide.pdf "Presentation slide")
 ## Author
 ``Nguyen QA``
 
